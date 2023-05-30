@@ -1,0 +1,46 @@
+nav{
+    width:17%;
+    margin-top: 3.9rem;
+    height:100vh;
+    position: fixed;
+    border: 2px solid gray;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px gray;
+  
+}
+ul{
+    line-height: 40px;
+    display: block;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+    
+}
+
+@media screen and (min-width: 608px) {
+    nav{
+        width:17%;
+        height:100vh;
+        position: fixed;
+        border: 2px solid gray;
+        background-color: white;
+        box-shadow: 1px 1px 1px 1px gray;
+    
+      
+    }
+    ul{
+        margin-right: 1rem;
+    }
+    a{
+        font-size:1rem;
+    }
+  }
